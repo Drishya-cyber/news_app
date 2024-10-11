@@ -1,0 +1,64 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #f9f9f9; /* Light background color for the card */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #f1f1f1; /* Slightly darker on hover */
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: #fff; /* White background inside the card body */
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .text-muted {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  .btn-dark {
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .btn-dark:hover {
+    background-color: #555;
+  }
+  
+  .badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    background-color: #dc3545; /* Red badge */
+    color: white;
+  }
+  
+  .badge .fas {
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,49 @@
+.container {
+    margin-top: 30px;
+    background-color: #f0f2f5; /* Light background for the whole news section */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .text-center {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .my-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .btn-dark {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn-dark:hover {
+    background-color: #555;
+  }
+  
+  .btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .row {
+    margin-top: 30px;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #333;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
